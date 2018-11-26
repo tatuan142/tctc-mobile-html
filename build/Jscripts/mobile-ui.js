@@ -73,3 +73,9 @@ $('.slider-nav .wrap').bxSlider({
     nextSelector: ".slider-nav .btn-next",
     prevSelector: ".slider-nav .btn-prev"
 });
+
+$('.portrait-box .wrap').bxSlider({
+    controls: false,
+    minSlides: 1,
+    maxSlides: 1
+});
