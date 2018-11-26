@@ -65,6 +65,9 @@ $('.fullSize-box-02 .wrap').bxSlider({
 });
 
 $('.slider-nav .wrap').bxSlider({
+    auto : true,
+    autoDelay : 1000,
+    pause : 5000,
     minSlides: 1,
     maxSlides: 2,
     nextSelector: ".slider-nav .btn-next",
