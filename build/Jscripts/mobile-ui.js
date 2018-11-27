@@ -75,6 +75,7 @@ $('.slider-nav .wrap').bxSlider({
 });
 
 $('.portrait-box .wrap').bxSlider({
+    oneToOneTouch : false,
     controls: false,
     minSlides: 1,
     maxSlides: 1
